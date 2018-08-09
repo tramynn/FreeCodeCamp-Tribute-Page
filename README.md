@@ -1,13 +1,7 @@
-# FreeCodeCamp-Tribute-Page
-Free Code Camp - Applied Responsive Web Design Projects: Build a Tribute Page
+# freeCodeCamp-tribute-page
+To build a tribute webpage for FreeCodeCamp's Responsive Web Design Projects
 
-Instructions //
-
-Objective: Build a CodePen.io app that is functionally similar to this: https://codepen.io/freeCodeCamp/full/zNqgVx.
-
-Fulfill the below user stories and get all of the tests to pass. Give it your own personal style.
-
-You can use HTML, JavaScript, and CSS to complete this project. Plain CSS is recommended because that is what the lessons have covered so far and you should get some practice with plain CSS. You can use Bootstrap or SASS if you choose. Additional technologies (just for example jQuery, React, Angular, or Vue) are not recommended for this project, and using them is at your own risk. Other projects will give you a chance to work with different technology stacks like React. We will accept and try to fix all issue reports that use the suggested technology stack for this project. Happy coding!
+## Requirements
 
 User Story #1: My tribute page should have an element with a corresponding id="main", which contains all other elements.
 
@@ -24,9 +18,3 @@ User Story #6: I should see an element with a corresponding id="tribute-info", w
 User Story #7: I should see an a element with a corresponding id="tribute-link", which links to an outside site that contains additional information about the subject of the tribute page. HINT: You must give your element an attribute of target and set it to _blank in order for your link to open in a new tab (i.e. target="_blank").
 
 User Story #8: The img element should responsively resize, relative to the width of its parent element, without exceeding its original size.
-
-You can build your project by forking this CodePen pen. Or you can use this CDN link to run the tests in any environment you like: https://gitcdn.link/repo/freeCodeCamp/testable-projects-fcc/master/build/bundle.js.
-
-Once you're done, submit the URL to your working project with all its tests passing.
-Remember to use the Read-Search-Ask method if you get stuck.
-
