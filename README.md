@@ -1,4 +1,4 @@
-# fcc-tributepage
+# FreeCodeCamp-Tribute-Page
 Free Code Camp - Applied Responsive Web Design Projects: Build a Tribute Page
 
 Instructions //
