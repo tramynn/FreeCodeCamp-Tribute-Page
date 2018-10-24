@@ -1,0 +1,223 @@
+.bodywrapper {
+  margin:0; 
+  padding:0;
+  overflow-x: hidden;
+}
+
+/* Basic */
+body {
+  margin-top: 10px;
+  background-color: #180520;
+  background-image: url("http://a1star.com/images/spaceblue.jpg");
+  background-repeat: repeat;
+  background-attachment: fixed;
+  color: white;
+  font-family: Lato;
+  letter-spacing: .07em;
+  width: 100%;
+  overflow-x: hidden;
+
+}
+
+/* Headers */ 
+h1 {
+  font-family: Orbitron;
+  color: #6074ba;
+  font-size: 5.5em;
+  font-weight: 700; 
+  letter-spacing: .1em;
+  text-transform: uppercase;
+  text-align: center;
+  text-shadow: 3px 3px 6px #ffffff;
+  max-width: 100%;
+  width: 100%;
+  margin: 0 auto;
+}
+
+/* h1 media queries */
+@media only screen and (max-width: 176px) {
+  h1 {
+   font-size: 2.75em;
+   margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 240px) {
+  h1 {
+   font-size: 3.75em;
+   margin: 0 auto;
+  }
+}
+
+@media only screen and (max-width: 320px) {
+  h1 {
+   font-size: 4.75em;
+   margin: 0 auto;
+  }
+}
+
+
+h2 {
+  color: #fff;
+  font-family: Orbitron;
+  font-size: 2.25em;
+  background-color: #454545;
+  font-weight: 700;
+  letter-spacing: .1em;
+  text-align: center;
+  width: auto;
+  height: auto;
+  padding: 15px 0px;
+  position: relative;
+  border-radius: 4px;
+  text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 20px #6f81c0, 0 0 25px #6f81c0, 0 0 35px #6f81c0, 0 0 45px #6f81c0, 0 0 65px #6f81c0;
+  text-transform: uppercase;
+  box-shadow: 2px 2px 15px #222222;
+}
+
+h3 {
+  color: #6f81c0;
+  font-family: Orbitron;
+  font-size: 2em;
+  font-weight: 700;
+  text-align: center;
+  text-shadow: 2px 2px 4px #000000;
+}
+
+h4 {
+  color: #7f8fc7;
+  font-size: 1.15em;
+  font-family: Orbitron;
+  font-weight: 400;
+  letter-spacing: .1em;
+  text-align: left;
+  border-bottom: 2px dashed #676767;
+  border-width: 1.25px;
+  text-shadow: 2px 2px 4px #222222;
+}
+
+hr {
+  background-color:#FFFFFF;
+  border: 0;
+  clear: both;
+  display: block;
+  max-width: 40%;
+  height: 2px;
+  margin: 20px auto;
+} 
+
+li {
+  font-weight: 300;
+  text-align: left;
+  padding-bottom: 12px;
+  margin-top: -8px;
+}
+
+ul {
+  list-style: none;
+  padding-left: 0;
+}
+
+p {
+  text-align: center;
+}
+
+/* Main Content */
+#about {
+  text-align: justify;
+}
+
+#subtitle {
+  text-align: center;
+  font-style: italic;
+  font-size: 1em;
+  color: white;
+}
+
+#image {
+ display: block;
+ max-width: 100%;
+ border-radius: 50%;
+ border: 5px solid #575757;
+ box-shadow: 0px 0px 25px #724ca3;
+ height: auto;
+ text-align: center;
+ margin: 10px auto;
+}
+
+figcaption{
+  color: white;
+  text-align: center;
+  font-style: italic;
+  font-size: .75em;
+}
+
+#quote {
+  color: white;
+  text-align: justify;
+  font-size: 1.25em;
+}
+
+/* Layout */
+.jumbotron {
+  background-color: #575757;
+  box-shadow: 0px 0px 10px #724ca3;
+  padding-top: 20px;
+  padding-bottom: 20px;
+  margin: 20px auto;
+  width: 100%;
+  max-width: 740px;
+}
+
+#btnwrapper {
+  display: flex;
+  justify-content: center;
+}
+
+/* Links */
+a {
+  color: #6f81c0;
+  font-size: .5em;
+}
+
+a:hover {
+  color: #575757;
+  font-size: .5em;
+  text-decoration: none;
+}
+
+/* Call to Action */
+
+#tribute-link { 
+  color: #FFFFFF;
+  border: none;
+  background-color: #000000;
+  background-image: linear-gradient(to right top, #5668a7 0%, #2d1e41 100%);
+  border-radius: 16px;
+  font-family: Orbitron;
+  font-size: 1.5em;
+  letter-spacing: .1em;
+  position: relative;
+  text-align: center;
+  padding: 5px 10px;
+  box-shadow: 3px 3px 10px #222222;
+  text-shadow: 2px 2px 4px #222222;
+  transition: transform .3s;
+  width: 200px;
+  height: 45px;
+}
+
+#tribute-link:hover {
+  background-color: #000000;
+ background-image: linear-gradient(to right top, #5668a7 0%, #2d1e41 100%);
+  box-shadow: 3px 3px 10px #222222;
+  text-shadow: 2px 2px 4px #222222;
+  text-decoration: none;
+  transform: scale(1.1);
+}
+
+/* Footer */
+#footer {
+  text-align: center;
+  font-size: 1em;
+}
