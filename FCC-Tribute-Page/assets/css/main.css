@@ -15,8 +15,6 @@ body {
   font-family: Lato;
   letter-spacing: .07em;
   width: 100%;
-  overflow-x: hidden;
-
 }
 
 /* Headers */ 
@@ -25,13 +23,12 @@ h1 {
   color: #6074ba;
   font-size: 5.5em;
   font-weight: 700; 
-  letter-spacing: .1em;
+  letter-spacing: .15em;
   text-transform: uppercase;
   text-align: center;
   text-shadow: 3px 3px 6px #ffffff;
   max-width: 100%;
-  width: 100%;
-  margin: 0 auto;
+  margin: 0px auto;
 }
 
 /* h1 media queries */
@@ -68,7 +65,6 @@ h2 {
   width: auto;
   height: auto;
   padding: 15px 0px;
-  position: relative;
   border-radius: 4px;
   text-shadow: 0 0 5px #fff, 0 0 5px #fff, 0 0 20px #6f81c0, 0 0 25px #6f81c0, 0 0 35px #6f81c0, 0 0 45px #6f81c0, 0 0 65px #6f81c0;
   text-transform: uppercase;
@@ -85,15 +81,17 @@ h3 {
 }
 
 h4 {
-  color: #7f8fc7;
+  color: #8b9acc;
   font-size: 1.15em;
   font-family: Orbitron;
   font-weight: 400;
-  letter-spacing: .1em;
+  letter-spacing: .125em;
   text-align: left;
   border-bottom: 2px dashed #676767;
   border-width: 1.25px;
-  text-shadow: 2px 2px 4px #222222;
+  text-shadow: 2px 2px 5px #222222;
+  padding: 3px;
+  padding-top: 7px;
 }
 
 hr {
@@ -111,6 +109,7 @@ li {
   text-align: left;
   padding-bottom: 12px;
   margin-top: -8px;
+  line-height: 1.4em;
 }
 
 ul {
@@ -130,7 +129,7 @@ p {
 #subtitle {
   text-align: center;
   font-style: italic;
-  font-size: 1em;
+  font-size: 1.2em;
   color: white;
 }
 
@@ -145,11 +144,12 @@ p {
  margin: 10px auto;
 }
 
-figcaption{
+figcaption {
   color: white;
   text-align: center;
   font-style: italic;
   font-size: .75em;
+  font-weight: 400;
 }
 
 #quote {
@@ -162,14 +162,12 @@ figcaption{
 .jumbotron {
   background-color: #575757;
   box-shadow: 0px 0px 10px #724ca3;
-  padding-top: 20px;
-  padding-bottom: 20px;
   margin: 20px auto;
   width: 100%;
   max-width: 740px;
 }
 
-#btnwrapper {
+.button-wrapper {
   display: flex;
   justify-content: center;
 }
@@ -181,12 +179,14 @@ a {
 }
 
 a:hover {
-  color: #575757;
+  color: #6f81c0;
   font-size: .5em;
   text-decoration: none;
 }
 
-/* Call to Action */
+a:active {
+  text-decoration: underline;
+}
 
 #tribute-link { 
   color: #FFFFFF;
@@ -197,7 +197,6 @@ a:hover {
   font-family: Orbitron;
   font-size: 1.5em;
   letter-spacing: .1em;
-  position: relative;
   text-align: center;
   padding: 5px 10px;
   box-shadow: 3px 3px 10px #222222;
@@ -205,6 +204,7 @@ a:hover {
   transition: transform .3s;
   width: 200px;
   height: 45px;
+  z-index: 2;
 }
 
 #tribute-link:hover {
@@ -214,10 +214,15 @@ a:hover {
   text-shadow: 2px 2px 4px #222222;
   text-decoration: none;
   transform: scale(1.1);
+  z-index: 2;
 }
 
+
 /* Footer */
-#footer {
+footer {
   text-align: center;
-  font-size: 1em;
+  font-size: .75em;
+  font-weight: 300;
+  padding: 10px;
 }
+
