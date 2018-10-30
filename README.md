@@ -58,9 +58,9 @@ Add additional notes about how to deploy this on a live system
 
 ## Built With
 
-* [HTML5](http://www.) 
-* [CSS3](https://)
-* [BOOTSTRAP](https://) - UI framework
+* [HTML5]() 
+* [CSS3]()
+* [BOOTSTRAP]() - UI framework
 
 ## Contributing
 
@@ -68,11 +68,10 @@ Please read [CONTRIBUTING.md](https://gist.github.com/PurpleBooth/b24679402957c6
 
 ## Versioning
 
-We use [SemVer](http://semver.org/) for versioning. For the versions available, see the [tags on this repository](https://github.com/your/project/tags). 
 
 ## Authors
 
-* **Billie Thompson** - *Initial work* - [PurpleBooth](https://github.com/PurpleBooth)
+* 
 
 ## License
 
